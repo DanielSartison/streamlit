@@ -4,7 +4,7 @@ from datetime import date
 import yfinance as yf
 from fbprophet import Prophet 
 import plotly.graph_objs as go
-from prophet.plot import plot_plotly
+from fbprophet.plot import plot_plotly
 #from fbprophet import graph_objs as go
 
 #daily_seasonality=True
