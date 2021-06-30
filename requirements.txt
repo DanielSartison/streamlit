@@ -9,3 +9,4 @@ pystan==2.19.1.1
 streamlit==0.82.0
 style==1.1.0
 yfinance==0.1.59
+prophet==0.1.1
