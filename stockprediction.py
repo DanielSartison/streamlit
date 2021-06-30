@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import date
 
 import yfinance as yf
-from prophet import Prophet 
+from fbprophet import Prophet 
 import plotly.graph_objs as go
 from prophet.plot import plot_plotly
 #from fbprophet import graph_objs as go
@@ -22,7 +22,7 @@ st.subheader("oder")
 
 stocks = ("AAPL", "GOOG", "MSFT", "GME", "AMZN", "GEO", "EURUSD=X")
 
-selected_stock = st.selectbox("wählen Sie einen aus unserer Datenbank", stocks)
+selected_stock = st.selectbox("wählen Sie einen Aktienkürzel aus unserer Datenbank", stocks)
 
 if submit:
     selected_stock = name
